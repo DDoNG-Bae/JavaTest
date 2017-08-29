@@ -8,6 +8,7 @@ public class GitTest {
       Scanner sc=new Scanner(System.in);
       String a=sc.nextLine();
       System.out.println(a);
-      
+      ShowEnd se=new ShowEnd(sc.nextInt());
+      se.PrintEnd();
     }
 }
